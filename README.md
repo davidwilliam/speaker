@@ -83,6 +83,24 @@ To check what is the current audio file path:
 Speaker.configuration.audio_file_path
 ```
 
+If you want to create tts in anothers languages:
+
+```ruby
+speaker = Speaker.new(language: 'pt', text: 'Olá meu amigo')
+speaker.tts # It will say 'Olá meu amigo', which is 'Hello my friend' in portuguese.
+```
+
+If you want to return the text and the language:
+
+```ruby
+speaker.text # It will return 'Olá meu amigo'
+speaker.language # I will return 'pt'
+```
+
+English is the default language.
+
+If you create a new Speaker object without passing any information, Speaker will create an object with the text 'Nothing to say'.
+
 ## Contributing
 
 1. Fork it
