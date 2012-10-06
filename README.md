@@ -23,7 +23,7 @@ Or install it yourself as:
 
     $ gem install speaker
 
-## Usage (WIP)
+## Usage
 
 All you need to start is to create a new Speaker object passing the text you want to transform in audio:
 
