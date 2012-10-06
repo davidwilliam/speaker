@@ -1,6 +1,6 @@
 # Speaker
 
-TODO: Write a gem description
+Flexible text to speech using Google Translator
 
 ## Installation
 
