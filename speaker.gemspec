@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["david@webhall.com.br"]
   gem.description   = %q{Flexible text to speech using Google Translator}
   gem.summary       = %q{Enjoy the power and flexibility of Google Translator by transforming any text in audio.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/davidwilliam/speaker"
 
   gem.files         = Dir["{lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
