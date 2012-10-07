@@ -127,7 +127,7 @@ module Speaker
 	  	if RUBY_PLATFORM.include?("darwin")
 	  		'afplay'
 	  	else
-	  		'mpg123'
+	  		'mpg123 -q'
 	  	end
 	  end
 
