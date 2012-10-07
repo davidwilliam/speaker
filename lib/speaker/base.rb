@@ -85,7 +85,7 @@ module Speaker
 
 		def type_sentence_and_get_audio(url,audio_file)
 			a = Mechanize.new { |agent|
-	      agent.user_agent_alias = 'Mac Safari'
+	      agent.user_agent_alias = 'Mechanize'
 	    }
 
 	    a.get(url) do |page|
