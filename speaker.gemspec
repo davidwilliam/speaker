@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "speaker"
   gem.require_paths = ["lib"]
   gem.version       = Speaker::VERSION
-  gem.add_dependency "mechanize"
+  gem.add_dependency "mechanize", ">= 2.5.1"
 end
