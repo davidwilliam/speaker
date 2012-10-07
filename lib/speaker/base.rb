@@ -39,7 +39,7 @@ module Speaker
 
 		def play
 			if has_audio?
-				`afplay #{audio_file}`
+				`#{player} #{audio_file}`
 				@text
 			else
 				"There is no audio file yet"
@@ -121,6 +121,14 @@ module Speaker
 
 		def delete_audio_file
 			File.delete(audio_file) if has_audio?
+	  end
+
+	  def player
+	  	if RUBY_PLATFORM.include?("darwin")
+	  		'afplay'
+	  	else
+	  		'mpg123'
+	  	end
 	  end
 
   end
