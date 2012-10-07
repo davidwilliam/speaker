@@ -15,6 +15,11 @@ Add this line to your application's Gemfile:
 
     gem 'speaker'
 
+### System dependencies
+
+* afplay - if you are on Mac OS
+* mpg123 - if you are on Linux
+
 In order to play the mp3 audio, on Mac OS Speaker uses 'afplay'. In my case, it's native.
 If you are on Linux, you need to have 'mpg123' installed. If you don't, plase install it first and then install and use the Speaker gem.
 
