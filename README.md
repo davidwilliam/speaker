@@ -73,7 +73,7 @@ By default, the audio file will be created inside the root path where the gem is
 
 ```ruby
 Speaker.configure do |config|
-  config.audio_file_path = '/new/path' # i.e.: /myapp/config
+  config.audio_file_path = '/new/path' # i.e.: /myapp/media
 end
 ```
 
