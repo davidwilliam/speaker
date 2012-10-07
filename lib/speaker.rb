@@ -13,7 +13,7 @@ module Speaker
     yield(configuration)
   end
   
-  def self.new(params)
+  def self.new(params={})
   	Base.new(params)
   end
   
