@@ -4,7 +4,7 @@ require "speaker/configuration"
 
 module Speaker
 
-	class << self
+  class << self
     attr_accessor :configuration
   end
 
@@ -14,7 +14,7 @@ module Speaker
   end
   
   def self.new(params={})
-  	Base.new(params)
+    Base.new(params)
   end
-  
+   
 end
