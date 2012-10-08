@@ -90,7 +90,7 @@ module Speaker
 
       a.get(url) do |page|
       	File.open(audio_file, 'wb') do |file|
-      		file << page.content
+          file << page.content
       	end
       end
 
